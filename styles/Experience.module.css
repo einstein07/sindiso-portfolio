@@ -1,0 +1,39 @@
+.experience {
+    padding-top: 1rem;
+    font-size: 0.9em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+  .branch {
+    font-size: 0.8em;
+  }
+  .lineContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .line {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+  }
+  .college {
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  
+  .line i {
+    font-size: 1.5em;
+    margin-right: 1rem;
+  }
+
+  .card {
+    transition: transform 0.2s;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+  }
+
+  .briefcase {
+    padding: 1em;
+  }
