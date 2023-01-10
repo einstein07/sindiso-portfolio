@@ -15,7 +15,10 @@ export default function About() {
         effective communication.
       </p>
       <p>
-        I am always open to grab a beer while chatting about tech, sports and everything else inbetween!   
+        I want to be a developer at SovTech because I want to be one of the best developers
+        in the industry. SovTech is the perfect place to start a development career given that the company
+        is very dynamic and focuses solely end-to-end custom software development. Consequently, I believe
+        that if I Sovtech I will consistently get pushed to become the best version of myself. 
       </p>
     </div>
   );
