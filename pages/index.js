@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Card from 'react-bootstrap/Card';
 import Header from "../components/Header";
@@ -9,9 +8,12 @@ import Footer from '../components/Footer';
 import Projects from '../components/Projects';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
+import ScrollToTop from "react-scroll-to-top";
+
 export default function Home() {
   return (
     <div className='styles.container'>
+
       <Head>
         <title>
           Sindiso Mkhatshwa - Electrical & Computer Engineer (Hons),
@@ -36,7 +38,7 @@ export default function Home() {
           name="keywords"
           content="sindiso,mkhatshwa,sm,sindiso,sindiso m,software engineer, msc candidate"
         />
-        
+
         <meta name="og:image" content="/assets/images/sindiso-og.jpg" />
 
         <link rel="icon" href="/favicon.ico" />
@@ -47,21 +49,17 @@ export default function Home() {
         />
       </Head>
       <Card className={styles.card}>
-        <Card.Body>
+      <Card.Body>
+      <ScrollToTop />
           <Header />
           <About />
-          <img src="/images/line1.png" className="line" />
           <Experience />
-          <img src="/images/line1.png" className="line" />
           <Education />
-          <img src="/images/line1.png" className="line" />
           <Projects />
-          <img src="/images/line1.png" className="line" />
           <Contact />
           <Footer />
         </Card.Body>
       </Card>
-      
     </div>
   );
 }

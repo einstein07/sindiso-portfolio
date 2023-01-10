@@ -5,16 +5,17 @@ export default function About() {
     <div className={styles.about}>
       <h2>About</h2>
       <p>
-        Hello! I'm Sindiso Mkhatshwa, an engineering graduate of the 
-        University of Cape Town with a strong concentration in Electrical 
-        and Computer Engineering.
+        Hello! I'm Sindiso Mkhatshwa, a 3rd year Master of Science (MSc) candidate at the University 
+        of Cape Town. My MSc is by dirssetation, specializing in Computer Science.
       </p>
       <p>
-        During my undergraduate career at UCT I focused on software 
-        development with a focus on microcontroller applications and harnessing
-        the computing resources that are available in GPUs and multi-core 
-        processors, as well as microprocessor design for High Performance 
-        Computing using Field Programmable Gate Arrays (FPGAs).
+        I chose to pursue an MSc degree in order to improve my research, critical thinking and 
+        analysis skills. Furthermore, this has given me the opportunity to hone other 
+        skills such as technical writing, project management, and 
+        effective communication.
+      </p>
+      <p>
+        I am always open to grab a beer while chatting about tech, sports and everything else inbetween!   
       </p>
     </div>
   );

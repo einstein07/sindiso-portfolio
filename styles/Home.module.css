@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #3AAFA9;
 }
 
 .card {
@@ -17,6 +18,7 @@
   padding: 2rem;
   padding-bottom: 0;
   margin-bottom: 5rem;
+  background-color: #3AAFA9;
 }
 
 .footer {
