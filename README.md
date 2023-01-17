@@ -31,4 +31,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The app has been deployed on Vercel. You can acess it by following [this link](https://sindiso-mkhatshwa-portfolio.vercel.app/). 
+The app has been deployed on Vercel.
